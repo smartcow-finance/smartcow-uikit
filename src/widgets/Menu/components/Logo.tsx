@@ -27,7 +27,7 @@ const StyledLink = styled(Link) <{ isPushed: boolean }>`
   }
 
   .mobile-icon {
-    width: ${({ isPushed }) => isPushed ? '136px' : '40px'};
+    width: ${({ isPushed }) => isPushed ? '72px' : '40px'};
     height: auto;
 
     ${({ theme }) => theme.mediaQueries.nav} {
@@ -36,7 +36,7 @@ const StyledLink = styled(Link) <{ isPushed: boolean }>`
   }
 
   .desktop-icon {
-    width: ${({ isPushed }) => isPushed ? '136px' : '40px'};
+    width: ${({ isPushed }) => isPushed ? '72px' : '40px'};
     height: auto;
     display: none;
 
